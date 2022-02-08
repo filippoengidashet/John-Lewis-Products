@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/bg_divider.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/bg_search.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/bg_search_icon.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.3921875" />
+        <entry key="app/src/main/res/drawable/selector_indicator.xml" value="0.3921875" />
+        <entry key="app/src/main/res/layout-land/fragment_product_detail.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/layout/fragment_product_detail.xml" value="0.1404494382022472" />
+        <entry key="app/src/main/res/layout/fragment_product_grid.xml" value="0.15823854523577097" />
+        <entry key="app/src/main/res/layout/item_product_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_product_spec_layout.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/layout/product_pager_item_layout.xml" value="0.1828774062816616" />
+        <entry key="app/src/main/res/xml/network_security_config.xml" value="0.11231884057971014" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

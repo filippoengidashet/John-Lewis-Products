@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">John Lewis Products</string>
+    <string name="text_product_specification">Product Specification</string>
+    <string name="text_product_information">Product Information</string>
+
+    <string name="text_product_code">Product Code: %1$s</string>
+    <string name="text_price_format">£%1$s</string>
+</resources>
