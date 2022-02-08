@@ -1,11 +1,11 @@
-package com.filippoengidashet.johnlewis.vm
+package com.filippoengidashet.johnlewis.mvvm.vm
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.espresso.matcher.ViewMatchers.assertThat
-import com.filippoengidashet.johnlewis.data.model.entity.ProductEntity
-import com.filippoengidashet.johnlewis.data.model.ApiResult
-import com.filippoengidashet.johnlewis.data.model.state.ProductsUiState
-import com.filippoengidashet.johnlewis.data.repository.ProductGridRepository
+import com.filippoengidashet.johnlewis.mvvm.data.model.ApiResult
+import com.filippoengidashet.johnlewis.mvvm.data.model.ProductsUiState
+import com.filippoengidashet.johnlewis.mvvm.data.model.entity.ProductEntity
+import com.filippoengidashet.johnlewis.mvvm.data.repository.ProductGridRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.TestCoroutineDispatcher

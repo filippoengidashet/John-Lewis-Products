@@ -1,8 +1,8 @@
 package com.filippoengidashet.johnlewis.di
 
 import com.filippoengidashet.johnlewis.BuildConfig
-import com.filippoengidashet.johnlewis.data.config.AppConstants
-import com.filippoengidashet.johnlewis.data.api.ProductsApi
+import com.filippoengidashet.johnlewis.mvvm.data.api.ProductsApi
+import com.filippoengidashet.johnlewis.mvvm.data.config.AppConstants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

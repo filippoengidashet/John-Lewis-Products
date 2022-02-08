@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/productGridFragment"
-        android:name="com.filippoengidashet.johnlewis.ui.features.products.grid.ProductGridFragment"
+        android:name="com.filippoengidashet.johnlewis.mvvm.ui.features.products.grid.ProductGridFragment"
         android:label="ProductGridFragment"
         tools:layout="@layout/fragment_product_grid">
 
@@ -22,7 +22,7 @@
 
     <fragment
         android:id="@+id/productDetailFragment"
-        android:name="com.filippoengidashet.johnlewis.ui.features.products.detail.ProductDetailFragment"
+        android:name="com.filippoengidashet.johnlewis.mvvm.ui.features.products.detail.ProductDetailFragment"
         android:label="{title}"
         tools:layout="@layout/fragment_product_detail" />
 
