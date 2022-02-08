@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/productGridFragment">
+
+    <fragment
+        android:id="@+id/productGridFragment"
+        android:name="com.filippoengidashet.johnlewis.ui.features.products.grid.ProductGridFragment"
+        android:label="ProductGridFragment"
+        tools:layout="@layout/fragment_product_grid">
+
+        <action
+            android:id="@+id/action_productGridFragment_to_productDetailFragment"
+            app:destination="@id/productDetailFragment" />
+
+<!--        <argument-->
+<!--            android:name="product_id"-->
+<!--            app:argType="string" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/productDetailFragment"
+        android:name="com.filippoengidashet.johnlewis.ui.features.products.detail.ProductDetailFragment"
+        android:label="{title}"
+        tools:layout="@layout/fragment_product_detail" />
+
+</navigation>
